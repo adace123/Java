@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+
+<SplitPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="500.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+  <items>
+    <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="514.0" prefWidth="598.0" style="-fx-background-color: beige;">
+         <children>
+            <Pane fx:id="countrypane" layoutX="199.0" layoutY="7.0" prefHeight="82.0" prefWidth="200.0" style="-fx-border-style: solid; -fx-border-width: 3;">
+               <children>
+                  <Label maxHeight="Infinity" textAlignment="CENTER" fx:id="countryNameHolder" alignment="CENTER" contentDisplay="CENTER" layoutX="3.0" layoutY="3.0" prefHeight="76.0" prefWidth="194.0" style="-fx-font-size: 25; -fx-font-family:Lobster; -fx-background-color: #FFF29F" text="Label" />
+               </children></Pane>
+            <Pane  layoutX="97.0" layoutY="109.0" prefHeight="49.0" prefWidth="140.0" style="-fx-border-style: solid; -fx-border-width: 3;">
+               <children>
+                   <Label fx:id="timer" alignment="CENTER" layoutX="-1.0" prefHeight="49.0" prefWidth="140.0" style="-fx-font-size: 25;"  textAlignment="CENTER" />
+                <AnchorPane layoutX="-202.0" layoutY="-99.0" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0" />
+               </children>
+            </Pane>
+                <Pane fx:id="scorepane" layoutX="361.0" layoutY="109.0" prefHeight="49.0" prefWidth="135.0" style=" -fx-border-style: solid; -fx-border-width: 3;">
+               <children>
+                  <Label fx:id="scoreLabel" alignment="CENTER" layoutX="-1.0" prefHeight="49.0" prefWidth="135.0" style="-fx-font-size: 25;"  textAlignment="CENTER" />
+               </children></Pane>
+            <GridPane fx:id="gamegrid" hgap="10.0" layoutX="5.0" layoutY="173.0" prefHeight="314.0" prefWidth="589.0" style="-fx-background-color: beige; -fx-padding: 10;" vgap="10.0" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="5.0" AnchorPane.rightAnchor="4.0" AnchorPane.topAnchor="173.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="194.0" minWidth="10.0" prefWidth="175.0" />
+                <ColumnConstraints hgrow="SOMETIMES" maxWidth="181.0" minWidth="10.0" prefWidth="173.0" />
+                  <ColumnConstraints hgrow="SOMETIMES" maxWidth="181.0" minWidth="10.0" prefWidth="173.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="144.0" minHeight="10.0" prefHeight="130.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="151.0" minHeight="10.0" prefHeight="133.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                   <!-- game panels -->
+                  <Pane prefHeight="270.0" prefWidth="460.0" style=" -fx-border-style: solid; -fx-border-width: 3;" />
+                  <Pane prefHeight="270.0" prefWidth="460.0" style=" -fx-border-style: solid; -fx-border-width: 3;" GridPane.columnIndex="1" />
+                  <Pane prefHeight="270.0" prefWidth="460.0" style=" -fx-border-style: solid; -fx-border-width: 3;" GridPane.columnIndex="2" />
+                  <Pane prefHeight="270.0" prefWidth="460.0" style=" -fx-border-style: solid; -fx-border-width: 3;" GridPane.rowIndex="1" />
+                 <Pane prefHeight="270.0" prefWidth="460.0" style=" -fx-border-style: solid; -fx-border-width: 3;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+                  <Pane prefHeight="270.0" prefWidth="460.0" style=" -fx-border-style: solid; -fx-border-width: 3;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+               </children>
+            </GridPane>
+            <HBox fx:id="lives" layoutX="29.0" layoutY="25.0" prefHeight="39.0" prefWidth="135.0" style=" -fx-border-style: solid; -fx-border-width: 3;">
+               <children>
+                  <Pane prefHeight="52.0" prefWidth="58.0" />
+                  <Pane prefHeight="52.0" prefWidth="58.0" />
+                  <Pane prefHeight="52.0" prefWidth="58.0" />
+               </children>
+            </HBox>
+         </children></AnchorPane>
+  </items>
+</SplitPane>

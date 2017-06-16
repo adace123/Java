@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: beige;" xmlns="http://javafx.com/javafx/8.0.102" xmlns:fx="http://javafx.com/fxml/1" fx:controller="FXMLDocumentController">
+   <center>
+      <Pane  prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: beige;" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="start" layoutX="257.0" layoutY="210.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="42.0" prefWidth="80.0" text="Start" />
+            <Button fx:id="howtoplay" layoutX="246.0" layoutY="270.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="42.0" prefWidth="103.0" text="How To Play" />
+            <Button fx:id="scores" layoutX="245.0" layoutY="334.0" mnemonicParsing="false" onAction="#handleButtonAction" prefHeight="44.0" prefWidth="104.0" text="High Score" />
+            <Pane fx:id="logopane" layoutX="150.0" layoutY="36.0" prefHeight="123.0" prefWidth="316.0" style="-fx-background-color: green;" />
+         </children>
+      </Pane>
+   </center>
+</BorderPane>

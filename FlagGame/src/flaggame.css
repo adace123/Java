@@ -1,0 +1,7 @@
+#logopane{
+	-fx-background-image: url("logo.JPG");
+        -fx-background-position: center center;
+        -fx-background-size: 300,300;
+        -fx-border-style: solid; 
+        -fx-border-width: 3;
+}

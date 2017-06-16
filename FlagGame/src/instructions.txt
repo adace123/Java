@@ -1,0 +1,11 @@
+Welcome to GeoFlag!
+
+The objective of the game is to guess the flag that corresponds to the country name displayed in the upper box.
+If you guess incorrectly, you lose one life out of three.
+If run out of hearts or the timer reaches 0, it's game over.
+Each time you guess correctly, you gain a point and your life as well as your time limit is replenished.
+
+After the game is over, you will be prompted to enter your name and your score will be saved.
+All the scores can be viewed at any time by clicking the "High Scores" button on the start screen.
+
+Hope you enjoy & good luck!
