@@ -1,4 +1,4 @@
-public class Main{
+public class CryptoSquare{
   public static void cryptoSquare(String message){
     message = normalize(message);
     int length = 0;
