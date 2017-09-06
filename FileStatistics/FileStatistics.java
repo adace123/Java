@@ -1,5 +1,5 @@
 //Aaron Feigenbaum
-//CS 20B
+//SMC - CS 20B
 //Project 1 - Text File Analyzer
 
 import java.util.*;
