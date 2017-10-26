@@ -14,6 +14,8 @@ class Test {
     System.out.println();
     linkedList.remove("Coke");
     linkedList.remove("Sprite");
+    linkedList.insertAt("Zevia",0);
+    linkedList.insertAt("Ginger ale", 3);
     for(int i = 0; i < linkedList.size(); i++) {
       System.out.println(linkedList.get(i));
     }
