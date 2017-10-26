@@ -128,5 +128,13 @@ public class MyLinkedList implements MyList {
     return false;
   }
   
+  public void printList() {
+    Node currentNode = head;
+    while(currentNode != null) {
+      System.out.println(currentNode.value);
+      currentNode = currentNode.next;
+    }
+  }
+  
 }
 
